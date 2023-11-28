@@ -35,15 +35,11 @@ public class LevelManager : MonoBehaviour
     }
 
     public void LoadNewGame(){
-        SceneManager.LoadScene(Scene.Level01.ToString());
+        SceneManager.LoadScene(Scene.ExamenA_01.ToString());
     }
 
     public void LoadNextScene(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
-    public void LoadMainMenu(){
-        SceneManager.LoadScene(Scene.MainMenu.ToString());
     }
 
     public void QuitGame(){
@@ -98,9 +94,8 @@ public class LevelManager : MonoBehaviour
     }
 
     public enum Scene{
-        MainMenu,
-        Level01,
-        Level02
+        ExamenA_01,
+        ExamenA_02
     }
 }
 
