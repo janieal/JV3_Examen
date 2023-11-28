@@ -1398,6 +1398,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1332748958}
+    - targetCorrespondingSourceObject: {fileID: 4658930850491653751, guid: c75b44d2c6ac36248a731b758697fe7a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1332748961}
   m_SourcePrefab: {fileID: 100100000, guid: c75b44d2c6ac36248a731b758697fe7a, type: 3}
 --- !u!4 &1332748957 stripped
 Transform:
@@ -1502,7 +1506,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -1540,6 +1544,28 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!64 &1332748961
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784542485}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3243674439585089683, guid: f7d74a1bcd11e6b4b88d39fdf83ce6d9, type: 3}
 --- !u!1001 &1502363026
 PrefabInstance:
   m_ObjectHideFlags: 0
